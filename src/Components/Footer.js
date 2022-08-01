@@ -6,7 +6,8 @@ const Footer = () => {
     <Segment vertical>
       <Grid container textAlign="center">
         <Grid.Column>
-          © 2021 name="heart" color="red" size="tiny" />
+          © 2020 IPLANT, LLC Plants with{" "}
+          <Icon name="heart" color="red" size="tiny" />
         </Grid.Column>
       </Grid>
     </Segment>
