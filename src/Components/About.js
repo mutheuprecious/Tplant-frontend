@@ -79,17 +79,17 @@ const About = () => {
             IPLANT Boutique Plant Shop
           </Header>
           <p style={{ fontSize: "1.33em" }}>
-            We are located in the heart of Seattle, WA. Swing by our shop to
+            We are located in the heart of Eldoret town Swing by our shop to
             create your own treasure!
             <br />
-            111 2nd Ave N, Seattle, WA 98109
+            G78G+J3W Eldoret
             <br />
-            Tel: +1(206)777-7777
+            Tel: +254 794343411
           </p>
           <Embed
             icon="magnify"
             placeholder={map}
-            url='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.36985510029!2d-122.35528298508567!3d47.618941395119734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549015457ba652e9%3A0xc4cc4897b0f67dea!2s111%202nd%20Ave%20N%2C%20Seattle%2C%20WA%2098109!5e0!3m2!1sen!2sus!4v1605209735409!5m2!1sen!2sus" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"'
+            url='https://www.google.com/maps/place/Eldoret/@0.5117565,35.2692121,12z/data=!4m5!3m4!1s0x178101ae37f9f535:0xe2db337df0fc0820!8m2" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"'
           />
         </Container>
       </Segment>
