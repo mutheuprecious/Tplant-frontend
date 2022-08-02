@@ -22,7 +22,7 @@ import About from "./Components/About";
 import Footer from "./Components/Footer";
 import PayPal from "./Components/PayPal";
 
-const URL = "https://iplant-backend.herokuapp.com";
+const URL = "https://tranquil-peak-78544.herokuapp.com/";
 
 class App extends React.Component {
   state = {
@@ -33,7 +33,7 @@ class App extends React.Component {
   };
 
   componentDidMount() {
-    fetch('https://iplant-backend.herokuapp.com/users/1')
+    fetch('https://tranquil-peak-78544.herokuapp.com/user')
     .then(resp => resp.json())
     .then(userData => {
       this.setState({cart: userData.transactions, favorites: userData.favorites})

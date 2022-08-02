@@ -14,7 +14,7 @@ class MainContainer extends React.Component {
   };
 
   componentDidMount() {
-    fetch("https://iplant-backend.herokuapp.com/plants")
+    fetch("https://tranquil-peak-78544.herokuapp.com/plants")
       .then((resp) => resp.json())
       .then((data) => {
         this.setState({

@@ -10,7 +10,7 @@ import {
   Embed,
 } from "semantic-ui-react";
 import { Link } from "react-router-dom";
-import map from "../images/map.png";
+import map from "../images/map.jpeg";
 import corner from "../images/corner.jpg";
 
 const About = () => {
@@ -25,7 +25,7 @@ const About = () => {
                   OUR STORY
                 </Header>
                 <p style={{ fontSize: "1.33em" }}>
-                  We are IPLANT - Boutique plant shop in Seattle, WA. We are a
+                  We are IPLANT - Boutique plant shop in the outcast of Eldoret town. We are a
                   team with a passion for delivering happiness and sharing our
                   love of plants. Lorem ipsum dolor sit amet, consectetur
                   adipiscing elit, sed do eiusmod tempor incididunt ut labore et
