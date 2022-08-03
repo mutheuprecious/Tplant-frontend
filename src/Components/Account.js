@@ -90,7 +90,7 @@ class Account extends Component {
 
                 {/* <input type='submit' /> */}
                 <Button color="olive" fluid size="large">
-                  
+                  Upadate Account
                 </Button>
               </Segment>
             </Form>
