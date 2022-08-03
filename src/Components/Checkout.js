@@ -240,22 +240,15 @@ class Checkout extends React.Component {
             />
             <Form.Input
               required
-              label="Address 1"
-              name="address1"
-              placeholder="Address 1"
+              label="Address "
+              name="address"
+              placeholder="Address"
               type="text"
               width={4}
               onChange={this.handleAddress1Change}
-              value={this.state.address1}
+              value={this.state.address}
             />
-            <Form.Input
-              label="Address 2"
-              name="address2"
-              placeholder="Address 2"
-              type="text"
-              width={4}
-              onChange={this.handleAddress2Change}
-            />
+          
           </Form.Group>
 
           <Form.Group>
