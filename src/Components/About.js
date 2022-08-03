@@ -76,7 +76,7 @@ const About = () => {
       <Segment style={{ padding: "8m 0em" }} vertical>
         <Container textAlign="center">
           <Header as="h4" style={{ fontSize: "1.5em" }}>
-            IPLANT Boutique Plant Shop
+            IPLANT Plant Shop
           </Header>
           <p style={{ fontSize: "1.33em" }}>
             We are located in the heart of Eldoret town Swing by our shop to
