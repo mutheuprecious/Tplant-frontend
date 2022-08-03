@@ -134,7 +134,8 @@ class Checkout extends React.Component {
   };
 
   render() {
-    const country = [{ key: "USA", text: "USA", value: "USA" }];
+    const country = [{ key: "KENYA", text: "KENYA", value: "KENYA" }];
+    const country1 = [{ key: "USA", text: "USA", value: "USA" }];
     return (
       <div>
         <div className="cart-total">

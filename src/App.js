@@ -33,7 +33,7 @@ class App extends React.Component {
   };
 
   componentDidMount() {
-    fetch('https://tranquil-peak-78544.herokuapp.com/user')
+    fetch('https://tranquil-peak-78544.herokuapp.com/user/1')
     .then(resp => resp.json())
     .then(userData => {
       this.setState({cart: userData.transactions, favorites: userData.favorites})
