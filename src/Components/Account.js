@@ -90,7 +90,7 @@ class Account extends Component {
 
                 {/* <input type='submit' /> */}
                 <Button color="olive" fluid size="large">
-                  Update Account
+                  
                 </Button>
               </Segment>
             </Form>
