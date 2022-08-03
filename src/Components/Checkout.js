@@ -209,18 +209,18 @@ class Checkout extends React.Component {
             />
             <Form.Input
               required
-              label="State"
-              name="state"
-              placeholder="State"
+              label="County"
+              name="County"
+              placeholder="County"
               type="text"
               width={4}
               onChange={this.handleStateChange}
             />
             <Form.Input
               required
-              label="town"
-              name="town"
-              placeholder="town"
+              label="Town"
+              name="Town"
+              placeholder="Town"
               type="text"
               width={4}
               onChange={this.handleCityChange}
