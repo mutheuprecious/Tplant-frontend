@@ -35,7 +35,7 @@ const About = () => {
                   velit esse cillum dolore eu fugiat nulla pariatur.
                 </p>
                 <Header as="h3" style={{ fontSize: "2em" }}>
-                  NOT YOUR AVERAGE PLANT SHOP
+                 
                 </Header>
                 <p style={{ fontSize: "1.33em" }}>
                   Although plant shops are becoming increasingly popular these
