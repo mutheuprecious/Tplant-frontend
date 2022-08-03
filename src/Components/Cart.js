@@ -18,7 +18,7 @@ const Cart = ({ cart, clearCart, removeFromCart }) => {
           onClick={clearCart}
           style={{ margin: "1.5rem" }}
         >
-          Clear Cart
+          
         </Button>
         <br />
         <h2> Your Cart</h2>
