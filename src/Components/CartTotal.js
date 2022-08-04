@@ -5,7 +5,7 @@ const CartTotal = ({ cart }) => {
     <div className="cart-total">
       <span className="cart-total-label">Total:</span>
       <span className="cart-total-value">
-        ${" "}
+        ksh{" "}
         {cart
           .map((plant) => plant.plant.price)
           .reduce((acc, price) => acc + price, 0)
