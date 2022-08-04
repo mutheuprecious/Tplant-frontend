@@ -140,7 +140,7 @@ class Checkout extends React.Component {
       <div>
         <div className="cart-total">
           <span className="cart-total-label">Total:</span>
-          <span className="cart-total-value">${this.state.total}</span>
+          <span className="cart-total-value">ksh{this.state.total}</span>
         </div>
 
         <Form className="checkout-form" onSubmit={this.handleSubmit}>
